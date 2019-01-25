@@ -1,0 +1,78 @@
+body, .ui.card, .ui.cards>.card, .ui.menu, .ui.header {
+  background-color: #222;
+  color: #f1f1f1;
+}
+
+.ui.header .sub.header, .ui.menu .item, .ui.form .field>label, i.icon {
+  color: #f1f1f1;
+}
+
+.ui.input>input, .ui.form input, .ui.grid>.ui.form input {
+  background-color: #383838;
+}
+
+.searchform {
+  border-bottom: 1px solid #ddd;
+}
+
+.ui.card>.content>.description,
+.ui.cards>.card>.content>.description,
+.ui.card>.content>.header, .ui.cards>.card>.content>.header,
+.ui.card .meta, .ui.cards>.card .meta {
+  color: #f1f1f1;
+}
+
+.cocktail-list .ui.list>.item a.header {
+  text-align: left;
+  color: #f1f1f1 !important;
+}
+
+.cocktail-list {
+  overflow-y: scroll;
+  max-height: 800px;
+}
+
+.cocktail-list .ui.list>.item a.header {
+  color: blue;
+}
+
+.ui.list .list>.item>.content, .ui.list>.item>.content {
+    margin: 0.5em auto;
+}
+
+.ui.form input:not([type]),
+.ui.form input[type=date],
+.ui.form input[type=datetime-local],
+.ui.form input[type=email],
+.ui.form input[type=file],
+.ui.form input[type=number],
+.ui.form input[type=password],
+.ui.form input[type=search],
+.ui.form input[type=tel],
+.ui.form input[type=text],
+.ui.form input[type=time],
+.ui.form input[type=url] {
+  color: #f1f1f1;
+}
+
+.searchform input {
+  width: 600px;
+}
+
+.ui.grid>.ui.form{
+  width: 100%;
+    margin: 0 auto;
+}
+
+.ui.grid>.ui.form input{
+max-width: 500px;
+}
+
+.ui.card, .ui.cards>.card {
+  box-shadow: none;
+}
+
+body ::-webkit-scrollbar-track {
+    background: rgba(255,255,255,.5);
+
+}
